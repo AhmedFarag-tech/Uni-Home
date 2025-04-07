@@ -251,6 +251,18 @@ nav .fa {
   .text-box h1 {
     font-size: 20px;
   }
+    .logo-container img {
+    width: 60px; 
+  }
+  .v-line {
+    height: 30px; 
+    margin: 0 5px;
+  }
+  .uni-name {
+    width: auto;
+    font-size: 14px; 
+    text-align: center;
+  }
 }
 
 /* ========== About Section ========== */
