@@ -1,0 +1,329 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta
+      name="viewport"
+      content="width=device-width, user-scalable=no, initial-scale=1.0, maximum-scale=1.0, minimum-scale=1.0"
+    />
+    <meta http-equiv="X-UA-Compatible" content="ie=edge" />
+    <title>HITU</title>
+    <link rel="stylesheet" href="style.css" />
+    <link rel="icon" href="icon.png" type="image/png">
+    <link
+      href="https://fonts.googleapis.com/css2?family=Abril+Fatface&family=Montserrat:wght@100;200;300;400;500;600;700;800;900&family=Poppins:wght@100;200;300;400;500;600;700;800;900&display=swap"
+      rel="stylesheet"
+    />
+    <link
+      rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.1.1/css/all.min.css"
+      integrity="sha512-KfkfwYDsLkIlwQp6LFnl8zNdLGxu9YAA1QvwINks4PhcElQSvqcyVLLD9aMhXd13uQjoXtEKNosOWaZqXgel0g=="
+      crossorigin="anonymous"
+      referrerpolicy="no-referrer"
+    />
+  </head>
+  <body>
+    <!-- HEADER -->
+    <header id="header" class="header">
+      <nav>
+        <div class="logo-container">
+          <a href="index.html">
+            <img src="logo2.png" alt="logo" />
+          </a>
+          <div class="v-line"></div>
+          <span class="uni-name"
+            >Helwan International Technological University</span
+          >
+        </div>
+        <div class="nav-links" id="navLinks">
+          <i class="fa fa-times" onclick="hideMenu()"></i>
+          <ul>
+            <li><a href="#header" class="list">HOME</a></li>
+            <li><a href="#about" class="list">ABOUT</a></li>
+            <li><a href="#course" class="list">COURSE</a></li>
+            <li><a href="#events" class="list">EVENTS</a></li>
+            <li><a href="#contact" class="list">CONTACT</a></li>
+            <li><a href="#" class="btn">SIGNUP</a></li>
+            <li><a href="#" class="btn">LOGIN</a></li>
+          </ul>
+        </div>
+        <i class="fa fa-bars" onclick="showMenu()"></i>
+      </nav>
+
+      <div class="hero">
+        <div class="hero-stripes">
+          <div class="stripe">
+            <img src="bg/stripe1.webp" loading="lazy" alt="Image 1" />
+          </div>
+          <div class="stripe">
+            <img src="bg/stripe2.webp" loading="lazy" alt="Image 2" />
+          </div>
+          <div class="stripe">
+            <img src="bg/stripe3.webp" loading="lazy" alt="Image 3" />
+          </div>
+          <div class="stripe">
+            <img src="bg/stripe4.webp" loading="lazy" alt="Image 4" />
+          </div>
+        </div>
+        <div class="text-box">
+          <h1>Welcome To our University</h1>
+          <p>
+            Shaping the world through Knowledge, innovation, and
+            passion-empowering the leaders of tomorrow
+          </p>
+          <a href="#" class="hero-btn">Know More</a>
+        </div>
+      </div>
+    </header>
+    <!-- SECTION About -->
+    <section id="about" class="about">
+      <h1>About the University</h1>
+      <p>
+        Helwan International Technological University was established to provide
+        high-quality, technology-focused education in Egypt. Originally known as
+        the Egyptian University of Technology, it was restructured and
+        integrated with Helwan University to offer specialized programs in
+        fields like engineering and applied sciences. The university is
+        dedicated to preparing students for the challenges of the modern
+        workforce by emphasizing practical skills, innovation, and global
+        industry standards.
+      </p>
+
+      <div class="row">
+        <div class="about-col">
+          <h3>Intermediate</h3>
+          <p>
+            Our intermediate programs provide students with foundational
+            knowledge in various technical fields, preparing them for higher
+            education in specialized areas like Mechatronics, Cybersecurity, and
+            Data Science.
+          </p>
+        </div>
+        <div class="about-col">
+          <h3>Degree</h3>
+          <p>
+            We offer undergraduate degrees in various technological disciplines,
+            including Mechatronics, Auto-Tronics, and Information Technology
+            areas like Cybersecurity, Data Science, and Artificial Intelligence.
+            Our curriculum integrates rigorous academics with hands-on
+            experience, preparing students for successful careers.
+          </p>
+        </div>
+        <div class="about-col">
+          <h3>Post Graduation</h3>
+          <p>
+            Our postgraduate programs provide opportunities to specialize
+            further in fields such as AI, Mechatronics, and Industrial
+            Automation. They focus on research, innovation, and leadership
+            development, aiming to contribute significantly to technological
+            advancements
+          </p>
+        </div>
+      </div>
+    </section>
+
+    <!-- course -->
+    <section id="course" class="course">
+      <h1>Discover Our Academic Tracks</h1>
+
+      <div class="card">
+        <img
+          class="card-image"
+          src="courses/Mecha.webp"
+          loading="lazy"
+          alt="Blog Image"
+        />
+        <div class="card-content">
+          <h5 class="card-title">Mechatronics</h5>
+          <p class="card-text">
+            Smart machines meet engineering—robots, automation, and intelligent
+            systems all in one field.
+          </p>
+        </div>
+      </div>
+
+      <div class="card">
+        <img
+          class="card-image"
+          src="courses/auto.webp"
+          loading="lazy"
+          alt="Blog Image"
+        />
+        <div class="card-content">
+          <h5 class="card-title">Autotronics</h5>
+          <p class="card-text">
+            The brain of modern vehicles: electronics, automation, and
+            tech-driven car systems.
+          </p>
+        </div>
+      </div>
+
+      <div class="card">
+        <img
+          class="card-image"
+          src="courses/Cyper.webp"
+          loading="lazy"
+          alt="Blog Image"
+        />
+        <div class="card-content">
+          <h5 class="card-title">Cypersecurity</h5>
+          <p class="card-text">
+            Protecting the digital world with ethical hacking, network defense,
+            and cyber tools.
+          </p>
+        </div>
+      </div>
+
+      <div class="card">
+        <img
+          class="card-image"
+          src="courses/Data.webp"
+          loading="lazy"
+          alt="Blog Image"
+        />
+        <div class="card-content">
+          <h5 class="card-title">Data Science</h5>
+          <p class="card-text">
+            Turning raw data into smart insights using stats, code, and machine
+            learning.
+          </p>
+        </div>
+      </div>
+
+      <div class="card">
+        <img
+          class="card-image"
+          src="courses/AI.webp"
+          loading="lazy"
+          alt="Blog Image"
+        />
+        <div class="card-content">
+          <h5 class="card-title">Artificial Intelligence</h5>
+          <p class="card-text">
+            This major focuses on creating intelligent systems that can learn,
+            reason, and make decisions like humans. <br />
+            (Let’s be honest—it’s the top choice!)
+          </p>
+        </div>
+      </div>
+
+      <div class="card">
+        <img
+          class="card-image"
+          src="courses/control.webp"
+          loading="lazy"
+          alt="Blog Image"
+        />
+        <div class="card-content">
+          <h5 class="card-title">Control Systems</h5>
+          <p class="card-text">
+            Designing precise systems that manage machines, processes, and
+            automation flows
+          </p>
+        </div>
+      </div>
+
+      <div class="card">
+        <img
+          class="card-image"
+          src="courses/fashion.webp"
+          loading="lazy"
+          alt="Blog Image"
+        />
+        <div class="card-content">
+          <h5 class="card-title">Fashion Design</h5>
+          <p class="card-text">
+            Where creativity meets fabric—designing clothes, styles, and future
+            fashion trends.
+          </p>
+        </div>
+      </div>
+      <h2>
+        Your journey starts here <br />
+        Choose the path that defines<br />
+        your future
+      </h2>
+    </section>
+
+    <!-- Events -->
+    <section id="events" class="Events">
+      <h1>Our Events</h1>
+      <p>
+        Stay updated with the latest activities and events happening at our
+        campus. Join us and be part of the experience!
+      </p>
+
+      <div class="row">
+        <div class="Events-col">
+          <img src="Events/sports.jpeg" alt="#" />
+          <h3>Campus Sports Life</h3>
+          <p>
+            Sports are everywhere—kick a ball after class, join a quick match,
+            or just hang out by the field
+          </p>
+        </div>
+        <div class="Events-col">
+          <img src="Events/fun.PNG" alt="#" />
+          <h3>Relax and Enjoy Recreational Activities</h3>
+          <p>
+            Take a break with fun activities, games, and social events to unwind
+            and connect with others
+          </p>
+        </div>
+        <div class="Events-col">
+          <img src="Events/cs.PNG" alt="#" />
+          <h3>Exciting activities ahead to enrich your experience!</h3>
+        </div>
+      </div>
+    </section>
+
+    <!-- CALL TO ACTION -->
+    <section id="contact" class="cta">
+      <h1>
+        Start Your Academic Journey <br />
+        With Us Now
+      </h1>
+      <a href="#" class="hero-btn">CONTACT US</a>
+    </section>
+
+    <!-- FOOTER -->
+    <section class="footer">
+      <h4>About HITU</h4>
+      <p>
+        Helwan International Technological University (HITU) is a leading
+        institution in applied sciences and technology. We aim to empower
+        students through innovation, practical learning, and a future-focused
+        vision.
+      </p>
+
+      <div class="icons">
+        <a href="#" aria-label="Facebook"
+          ><i class="fa-brands fa-facebook"></i
+        ></a>
+        <a href="#" aria-label="LinkedIn"
+          ><i class="fa-brands fa-linkedin"></i
+        ></a>
+      </div>
+
+      <!-- Contact Us Section -->
+      <h4>Contact Us</h4>
+      <p>
+        <i class="fa-solid fa-location-dot"></i> 39 El-Sawah Street, El-Zeitoun
+        Qibliyah, El-Amireya, Cairo, Egypt
+      </p>
+      <p><i class="fa-solid fa-envelope"></i> ###########</p>
+      <p><i class="fa-solid fa-phone"></i> ###########</p>
+    </section>
+    <script type="text/javascript">
+      let navLinks = document.getElementById("navLinks");
+
+      function showMenu() {
+        navLinks.style.right = "0";
+      }
+
+      function hideMenu() {
+        navLinks.style.right = "-200px";
+      }
+    </script>
+  </body>
+</html>
